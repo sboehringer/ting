@@ -1,0 +1,35 @@
+#!/bin/sh
+
+# folder on ting pen
+tingf="/run/media/$USER/Ting/"'$ting'
+#tingf=~/Downloads/ting
+
+# common url components
+PRE=http://13.80.138.170/book-files
+SN=sn/5497559973888/
+POST=area/en/$SN
+
+while read idlf; do
+    lid=`echo $idlf | perl -pe 's/([\n\r])//g'`
+    id=`echo $lid | perl -pe 's/(^0+)//g'`
+
+    echo "Output: $tingv, buch-id: $lid, short-id: $id"
+    wget $PRE/get-description/id/$id/$POST -O $tingf/"$lid"_en.txt
+    wget $PRE/get/id/$id/type/thumb/$POST -O $tingf/"$lid"_en.png
+    wget $PRE/get/id/$id/area/en/type/archive/$SN -O $tingf/"$lid"_en.ouf
+done <"$tingf/TBD.TXT"
+
+
+#
+# <p> development
+#
+#Infos:
+#   https://forum.ubuntuusers.de/topic/synchronisation-von-ting-dem-hoerstift-von-bro/
+#   https://www.ting-el-tangel.de/doku.php?id=nuetzliches
+#   https://www.ting-el-tangel.de/doku.php?id=offizielle_buecher
+
+#URLPRE=http://system.ting.eu
+
+#http://13.80.138.170/book-files/get-description/id/5252/area/en/sn/5497559973888/
+#http://13.80.138.170/book-files/get/id/5252/type/thumb/area/en/sn/5497559973888/
+#http://13.80.138.170/book-files/get/id/5252/area/en/type/archive/sn/5497559973888/
