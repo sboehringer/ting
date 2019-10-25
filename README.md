@@ -8,6 +8,7 @@ Change `tingf` to the folder location of the pen-mount. As configured, works wit
 
 # Workflow
 
+  * Using the pen, tip activation circle in book
   * Insert, mount pen
   * Run `ting`
   * Unmount, use pen
