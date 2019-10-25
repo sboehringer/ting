@@ -18,3 +18,6 @@ while read idlf; do
     wget $PRE/get/id/$id/type/thumb/$POST -O $tingf/"$lid"_en.png
     wget $PRE/get/id/$id/area/en/type/archive/$SN -O $tingf/"$lid"_en.ouf
 done <"$tingf/TBD.TXT"
+
+# desktop notification
+command -v notify-send Ting 'Book downloading finished. Please unmount pen.'
