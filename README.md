@@ -17,9 +17,9 @@ Change `tingf` to the folder location of the pen-mount on your OS. As configured
 
 Based on information from the following web-sites
 
-	* [https://forum.ubuntuusers.de/topic/synchronisation-von-ting-dem-hoerstift-von-bro/]
-	* [https://www.ting-el-tangel.de/doku.php?id=nuetzliches]
-	* [https://www.ting-el-tangel.de/doku.php?id=offizielle_buecher]
+  * [https://forum.ubuntuusers.de/topic/synchronisation-von-ting-dem-hoerstift-von-bro/]
+  * [https://www.ting-el-tangel.de/doku.php?id=nuetzliches]
+  * [https://www.ting-el-tangel.de/doku.php?id=offizielle_buecher]
 
 
 # License
