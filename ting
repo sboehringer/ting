@@ -1,7 +1,16 @@
 #!/bin/sh
 
 # folder on ting pen
-tingf="/run/media/$USER/Ting/"'$ting'
+if [ -e "/run/media/$USER/Ting/"'$ting' ]; then
+	OpenSuse 42/15
+	tingf="/run/media/$USER/Ting/"'$ting'
+elif [ -e 'Volumes/Ting' ]; then
+	# Mac OS
+	tingf="Volumes/Ting/"'$ting'
+else
+	echo 'Ting pen not mounted.'
+	exit 1
+fi
 #tingf=~/Downloads/ting
 
 # common url components

@@ -4,7 +4,7 @@ Script to download books for a ting-pen [http://www.ting.eu]. Works as of 10/201
 
 # Configuration
 
-Change `tingf` to the folder location of the pen-mount. As configured, works with OpenSUSE (>= 15.0).
+Change `tingf` to the folder location of the pen-mount on your OS. As configured, works with OpenSUSE (>= 15.0) and Mac OS X.
 
 # Workflow
 
