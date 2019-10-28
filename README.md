@@ -8,7 +8,7 @@ Change `tingm` to the folder location of the pen-mount on your OS, if needed.
 Operating systems already supported:
 
   * OpenSUSE >= 15.0
-  * Mac OS X
+  * Mac OS X (requires install of [homebrew](https://brew.sh/]))
 
 # Workflow
 
