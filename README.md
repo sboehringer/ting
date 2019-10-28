@@ -11,7 +11,7 @@ Operating systems already supported:
   * Mac OS X (requires installation of [homebrew](https://brew.sh), wget `brew install wget`)
 
 # Workflow
-https://brew.sh/
+
   * Using the pen, tip activation circle in book, switch off pen
   * Insert pen into computer, mount pen
   * Run `ting`
