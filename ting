@@ -1,17 +1,18 @@
 #!/bin/sh
 
-# folder on ting pen
-if [ -e "/run/media/$USER/Ting/"'$ting' ]; then
-	OpenSuse 42/15
-	tingf="/run/media/$USER/Ting/"'$ting'
+# mount point of ting pen
+if [ -e "/run/media/$USER/Ting" ]; then
+	# OpenSuse 42/15
+	tingm="/run/media/$USER/Ting"
 elif [ -e 'Volumes/Ting' ]; then
-	# Mac OS
-	tingf="Volumes/Ting/"'$ting'
+	# Mac OS X
+	tingm="Volumes/Ting/"
 else
 	echo 'Ting pen not mounted.'
 	exit 1
 fi
 #tingf=~/Downloads/ting
+tingf="$tingm"/'$ting'
 
 # common url components
 PRE=http://13.80.138.170/book-files
