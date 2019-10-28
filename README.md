@@ -8,10 +8,10 @@ Change `tingm` to the folder location of the pen-mount on your OS, if needed.
 Operating systems already supported:
 
   * OpenSUSE >= 15.0
-  * Mac OS X (requires install of [homebrew](https://brew.sh/]), installation of wget with `brew install wget`)
+  * Mac OS X (requires installation of [homebrew](https://brew.sh), wget `brew install wget`)
 
 # Workflow
-
+https://brew.sh/
   * Using the pen, tip activation circle in book, switch off pen
   * Insert pen into computer, mount pen
   * Run `ting`
