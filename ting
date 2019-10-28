@@ -4,9 +4,9 @@
 if [ -e "/run/media/$USER/Ting" ]; then
 	# OpenSuse 42/15
 	tingm="/run/media/$USER/Ting"
-elif [ -e 'Volumes/Ting' ]; then
+elif [ -e '/Volumes/Ting' ]; then
 	# Mac OS X
-	tingm="Volumes/Ting/"
+	tingm="/Volumes/Ting/"
 else
 	echo 'Ting pen not mounted.'
 	exit 1
