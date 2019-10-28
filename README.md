@@ -4,11 +4,11 @@ Script to download books for a ting-pen [http://www.ting.eu]. Works as of 10/201
 
 # Configuration
 
-Change `tingf` to the folder location of the pen-mount on your OS. As configured, works with OpenSUSE (>= 15.0) and Mac OS X.
+Change `tingm` to the folder location of the pen-mount on your OS, if needed (OpenSUSE (>= 15.0), Mac OS X are currently auto-detected).
 
 # Workflow
 
-  * Using the pen, tip activation circle in book
+  * Using the pen, tip activation circle in book, switch off pen
   * Insert pen into computer, mount pen
   * Run `ting`
   * Unmount, use pen
