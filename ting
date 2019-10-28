@@ -6,12 +6,11 @@ if [ -e "/run/media/$USER/Ting" ]; then
 	tingm="/run/media/$USER/Ting"
 elif [ -e '/Volumes/Ting' ]; then
 	# Mac OS X
-	tingm="/Volumes/Ting/"
+	tingm='/Volumes/Ting'
 else
-	echo 'Ting pen not mounted.'
-	exit 1
+	echo 'Ting pen not mounted. Downloading to ~/Downloads/$ting (if that folder exists). Files can later be copied manually to subfolder $ting on the ting pen.'
+	tingm=~/Downloads
 fi
-#tingf=~/Downloads/ting
 tingf="$tingm"/'$ting'
 
 # common url components
