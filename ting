@@ -8,7 +8,7 @@ elif [ -e '/Volumes/Ting' ]; then
 	# Mac OS X
 	tingm='/Volumes/Ting'
 else
-	echo 'Ting pen not mounted. Downloading to ~/Downloads/$ting (if that folder exists). Files can later be copied manually to subfolder $ting on the ting pen.'
+	echo 'Ting pen not mounted. Downloading to ~/Downloads/$ting (if that folder exists and contains file TBD.TXT with book ids). Files can later be copied manually to subfolder $ting on the ting pen.'
 	tingm=~/Downloads
 fi
 tingf="$tingm"/'$ting'
